@@ -1,0 +1,60 @@
+.frame{
+    position: absolute;
+    top: 50%;
+}
+
+
+.rightSide-head {
+    margin-left: 10%;
+       color: white;
+}
+
+
+.button1{
+    width: 120px;
+    height: 50px;
+    background-color: #EB9601;
+    margin-top: 20px;
+    margin-left: 80px;
+    border: none;
+    color: black;
+}
+
+.button1:hover{
+    width: 125px;
+}
+
+.button2{
+    width: 120px;
+    height: 50px;
+    background-color: #1A1612;
+    color: white;
+    border: 2px solid #EB9601;
+    margin-left: 20px;
+}
+
+.button2:hover{
+    width: 125px;
+}
+
+@media (max-width: 800px) {
+    .rightSide-head {
+        max-width: 400px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .icons{
+    margin-left: 40%;
+    }
+
+    
+
+
+
+@media (max-width: 900px) {
+    .icons{
+    margin-left: 20%;
+    }
+}
+}
